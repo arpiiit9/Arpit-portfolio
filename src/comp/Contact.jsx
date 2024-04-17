@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMe = () => {
   return (
-    <section className="contact-me bg-gray-800 text-white py-20">
+    <section className="contact-me bg-gray-800 text-white p-20">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8">Contact Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -29,7 +29,7 @@ const ContactMe = () => {
               <SocialMediaCard icon="fab fa-youtube fa-lg" username="@arpiiit9" />
               <SocialMediaCard icon="fab fa-instagram fa-lg" username="@arpiiit9" />
               {/* Add more SocialMediaCard components with different icons and usernames as needed */}
-            </div>
+            </div>``
           </div>
         </div>
       </div>

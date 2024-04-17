@@ -2,9 +2,9 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="bg-gray-900 text-white py-20 flex flex-col md:flex-row items-center">
+    <section className="bg-gray-900 text-white p-20 flex flex-col md:flex-row items-center">
       {/* Left side content */}
-      <div className="md:w-1/2 px-4">
+      <div className="md:w-1/2 p-4">
         <h1 className="text-4xl md:text-6xl font-bold">Hey, I'm Arpit</h1>
         <p className="text-lg md:text-xl mt-4">and I'm a developer</p>
         {/* "Contact Me" button */}

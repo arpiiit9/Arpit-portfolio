@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-gray-900 text-white py-4">
+    <header className="bg-gray-900 text-white p-4">
       <div className="container mx-auto flex justify-between items-center font-poppins">
         <div className="text-xl font-bold">
           <a href="#" className="text-white">My Portfolio</a>
