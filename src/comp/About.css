@@ -1,0 +1,29 @@
+.about-me-container {
+  padding: 20px;
+}
+
+.about-me-content {
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.about-me-content p {
+  opacity: 0; /* Initially hide paragraphs */
+  animation: fadeIn 1s forwards; /* Apply fade-in animation */
+}
+
+/* Define keyframes for the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-me-container:hover .about-me-content p {
+  animation: none; /* Disable animation on hover */
+  opacity: 1; /* Show all paragraphs on hover */
+}
