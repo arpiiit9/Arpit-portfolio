@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const LoadingScreen = () => {
   const [progress, setProgress] = useState(0);
-  const [greeting, setGreeting] = useState('Loading...');
+  const [greeting, setGreeting] = useState('');
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -17,10 +17,12 @@ const LoadingScreen = () => {
   useEffect(() => {
     const greetings = [
       'Hello',
-      'こんにちは',
       'नमस्ते',
       'Bonjour',
+      'こんにちは',
       '你好'
+      
+      
     ];
 
     const interval = setInterval(() => {

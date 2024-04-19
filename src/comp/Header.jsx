@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
         </div>
         <nav>
           <ul className="flex space-x-4">
-            <li><a href="#skills" className="text-white hover:text-gray-300">Skills</a></li>
+            <li><Link to="#skills" smooth={true} duration={500}>Skills </Link></li>
             <li><a href="#projects" className="text-white hover:text-gray-300">Projects</a></li>
             <li><a href="#about" className="text-white hover:text-gray-300">About</a></li>
             <li><a href="#github" className="text-white hover:text-gray-300">GitHub</a></li>
