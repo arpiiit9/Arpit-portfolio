@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const LoadingScreen = () => {
   const [progress, setProgress] = useState(0);
-  const [greeting, setGreeting] = useState('');
+  const [greeting, setGreeting] = useState('loading...');
 
   useEffect(() => {
     const interval = setInterval(() => {
